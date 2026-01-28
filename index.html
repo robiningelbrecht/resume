@@ -8,7 +8,7 @@
   <link href="https://robiningelbrecht.be/assets/favicon.png" rel="icon" type="image/png">
 </head>
 <body class="font-ibm text-[10pt] leading-normal text-black bg-black">
-  <div class="resume w-[210mm] min-h-[297mm] mx-auto my-4 bg-white">
+  <div class="resume w-[210mm] max-[800px]:w-full min-h-[297mm] mx-auto my-4 bg-white">
     <header class="flex">
       <div class="flex-1 flex items-center max-[800px]:flex-col max-[800px]:text-center py-4 px-[14pt]">
         <img src="https://robiningelbrecht.be/assets/logo.png" alt="Robin Ingelbrecht" class="w-[80pt] h-[80pt] rounded-full object-cover shrink-0">
@@ -35,9 +35,9 @@
           </div>
         </div>
       </div>
-      <aside class="bg-primary w-(--page-sidebar-width) shrink-0"></aside>
+      <aside class="bg-primary w-(--page-sidebar-width) shrink-0 max-[800px]:hidden"></aside>
     </header>
-    <main class="flex">
+    <main class="flex max-[800px]:flex-col">
       <div class="flex-1 px-[14pt] pb-4 max-[800px]:py-4 max-[800px]:px-[14pt]">
         <!-- Profiles -->
         <section class="section mb-4">
@@ -255,7 +255,7 @@
           </article>
         </section>
       </div>
-      <aside class="bg-primary w-(--page-sidebar-width) shrink-0 px-[14pt] text-white">
+      <aside class="bg-primary w-(--page-sidebar-width) shrink-0 px-[14pt] text-white max-[800px]:w-full max-[800px]:py-4">
         <!-- Skills -->
         <section class="section mb-4">
           <h2 class="text-[11pt] font-semibold text-white border-b border-white pb-1 mb-2">Skills</h2>
